@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class DaıreAlancevre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	     
+		 Scanner inp= new Scanner(System.in);
+		
+     System.out.println("yarıcapı giriniz");
+     int r = inp.nextInt();
+		
+     System.out.println("pi değerini giriniz");
+     int pi = inp.nextInt();
+
+     System.out.println("DAIRE ALANI"+ pi*(r*r));
+   
+     System.out.println("DAIRE CEVRE"+ pi*r*2);
+	}
+
+}
